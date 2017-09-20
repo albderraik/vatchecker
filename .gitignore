@@ -1,0 +1,89 @@
+# Java Compiled Files #
+*.class
+
+# Java Package Files #
+*.jar
+*.war
+*.ear
+
+# General temp files
+*.tmp
+*.bak
+*.swp
+tmp/
+
+# General binary files
+bin/
+
+### Eclipse template
+*.pydevproject
+.metadata
+.gradle
+*~.nib
+local.properties
+.settings/
+.loadpath
+.project
+.externalToolBuilders/
+*.launch
+.cproject
+.classpath
+.buildpath
+.target
+.texlipse
+
+### IntelliJ IDEA ###
+### JetBrains template
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+### Microsoft Visual Code
+.vscode/
+
+### STS ###
+.apt_generated
+.factorypath
+.springBeans
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+## Plugin-specific files:
+out/
+atlassian-ide-plugin.xml
+
+## Maven build folder
+.target/
+target/
+.mvn
+!.mvn/wrapper/maven-wrapper.jar
+
+## Gradle build folder
+.build/
+build/
+
+## Hibernate schema export DDL script
+schema-export-create.sql
+
+# Hibernate metamodel
+**/generated/
+
+# Log files
+log/
+*.log
+
+# Mac generated files
+**/.DS_Store
+
+# Include the Gradle Wrapper
+!gradle-wrapper.jar
+!gradlew
+
