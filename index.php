@@ -101,22 +101,14 @@ if ($vat == '') {
 		$result = viesCheckVAT(strtoupper($country), $number);
 		// Check results
 		if (isset($result['valid'])) {
-			$message = ($result['valid'] == 'true' ? "Valid VAT code." : "Invalid VAT code.");
+			$message = ($result['valid'] == 'true' ? "Valid" : "Invalid");
 		} else {
 			$message = isset($result['faultstring']) ? $result['faultstring'] : '';
-			if ($message == '')
-				$message = "Valid VAT code.";
+			if ($message == '') {
+				$message = "Valid";
+			}
 		}
 	}
 }
 ?>
-
-<html>
-<head>
-	<title>VAT Checker</title>
-</head>
-<body>
-	<h3> <?php print $message ?> </h3>
-</body>
-</html>
-
+<?php print $message ?>
