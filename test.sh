@@ -11,3 +11,4 @@ x=`curl -s http://localhost/vatchecker/?vat=GB163980581` && [ $x == "Invalid" ] 
 x=`curl -s http://localhost/vatchecker/?vat=PL9492191021` && [ $x == "Valid" ] && echo Passed || echo Fail
 x=`curl -s http://localhost/vatchecker/?vat=CZ64610748` && [ $x == "Valid" ] && echo Passed || echo Fail
 x=`curl -s http://localhost/vatchecker/?vat=IT06700351213` && [ $x == "Valid" ] && echo Passed || echo Fail
+
