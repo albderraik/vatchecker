@@ -16,7 +16,7 @@ the service (checkVatService) end point we're interested in is at: http://ec.eur
 - The script/cli application should take a VAT number as the single argument
 - Output should be either "Valid" or "Invalid" or, in a case of some exception/error (from the SOAP service), said exception/error
 
-## Instalation
+## Installation
 This script use PHP lang.
 
 ### Needed Packages
