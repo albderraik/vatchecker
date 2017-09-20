@@ -24,6 +24,6 @@ This script use PHP lang.
 
 ### To Run
 
-http://server/vatchecker/?vat=IT06700351213
+http://server/?vat=IT06700351213
 
 
