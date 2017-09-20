@@ -20,5 +20,10 @@ the service (checkVatService) end point we're interested in is at: http://ec.eur
 This script use PHP lang.
 
 ### Needed Packages
-- php-xml
+- php-fastcgi
+
+### To Run
+
+http://server/vatchecker/?vat=IT06700351213
+
 
