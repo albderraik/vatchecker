@@ -85,7 +85,7 @@ function print_array($aArray) {
 
 // Check parameter
 if ($vat == '') {
-	$message = 'Error: Invalid VAT code.';
+	$message = 'Invalid';
 } else {
 	// Get values
 	$country = substr($vat, 0, 2);

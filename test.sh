@@ -1,5 +1,6 @@
 #!/bin/bash
 
+x=`curl -s http://localhost/vatchecker/?vat=` && [ $x == "Invalid" ] && echo Passed || echo Fail
 x=`curl -s http://localhost/vatchecker/?vat=SS000` && [ $x == "INVALID_INPUT" ] && echo Passed || echo Fail
 x=`curl -s http://localhost/vatchecker/?vat=CZ28987373` && [ $x == "Valid" ] && echo Passed || echo Fail
 x=`curl -s http://localhost/vatchecker/?vat=DE296459264` && [ $x == "Valid" ] && echo Passed || echo Fail
