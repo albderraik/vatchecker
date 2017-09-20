@@ -11,8 +11,6 @@ $vat = isset($_GET['vat']) ? $_GET['vat'] : '';
 /**
  * VIES VAT number validation
  *
- * @author Eugen Mihailescu
- *        
  * @param string $countryCode           
  * @param string $vatNumber         
  * @param int $timeout          
